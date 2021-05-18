@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <title>Preston's Reference Guide</title>
+        <link href='./resources/main.css' type='text/css' rel='stylesheet'>
+    </head>
+    <body>
+        <header>
+            <h1>HTML Reference Guide</h1>
+        </header>
+                <table>
+                    <h2>Document Structure</h2>
+                        <thead>
+                            <tr>
+                                <th scope='col'>Opening Tag</th>
+                                <th scope='col'>Closing Tag</th>
+                                <th scope='col'>Description</th>
+                            </tr>
+                        </thead>
+                            <tr>
+                                <td class='code'>&lt;html&gt;</td>
+                                <td class='code'>&lt;/html&gt;</td>
+                                <td>Opens and closes an HTML document</td>
+                            </tr>
+                            <tr>
+                                <td class='code'>&lt;head&gt;</td>
+                                <td class='code'>&lt;/head&gt;</td>
+                                <td>The first of two main sections of an HTML document. The <span class='code'>&lt;head&gt;</span> 
+                                    section is used to provide information about the document for use primarily 
+                                    by search engines and browsers.</td>
+                            </tr>
+                            <tr>
+                                <td class='code'>&lt;title&gt;</td>
+                                <td class='code'>&lt;/title&gt;</td>
+                                <td>The title of document. This element is nested inside the <span class='code'>&lt;head&gt;</span>
+                                    section. <span>In HTML5, this is the only required tag other than the 
+                                        DOCTYPE declaration.</span></td>
+                            </tr>
+                            <tr>
+                                <td class='code'>&lt;body&gt;</td>
+                                <td class='code'>&lt;/body&gt;</td>
+                                <td>The second of two main sections of an HTML document. The <span class='code'>&lt;body&gt;</span> 
+                                    section contains all the content of the web page.</td>
+                            </tr>
+                            
+                </table>
+                <h2>Content (Container Tags)</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope='col'>Opening Tag</th>
+                            <th scope='col'>Closing Tag</th>
+                            <th scope='col'>Description</th>
+                        </tr>
+                    </thead>
+                            <tr>
+                                <td class='code'>&lt;h1&gt; to &lt;h6&gt;</td>
+                                <td class='code'>&lt;/h1&gt; to &lt;/h6&gt;</td>
+                                <td>Headings. H1 is the main heading, H2 is secondary, etc.</td>
+                            </tr>
+                            <tr>
+                                <td class='code'>&lt;p&gt;</td>
+                                <td class='code'>&lt;/p&gt;</td>
+                                <td>Paragraph</td>
+                            </tr>
+                            <tr>
+                                <td class='code'>&lt;div&gt;</td>
+                                <td class='code'>&lt;/div&gt;</td>
+                                <td>A container for a <em>block</em> of content</td>
+                            </tr>
+                            <tr>
+                                <td class='code'>&lt;span&gt;</td>
+                                <td class='code'>&lt;/span&gt;</td>
+                                <td>A container for <em>in-line</em> content, such as content inside a paragraph.</td>
+                            </tr>
+                            <tr>
+                                <td class='code'>&lt;em&gt;</td>
+                                <td class='code'>&lt;/em&gt;</td>
+                                <td>Gives the contained text emphasis (usually as <em>italics</em>).</td>
+                            </tr>
+                            <tr>
+                                <td class='code'>&lt;strong&gt;</td>
+                                <td class='code'>&lt;/strong&gt;</td>
+                                <td>Makes the contained text <strong>bold</strong>.</td>
+                            </tr>
+                            <tr>
+                                <td class='code'>&lt;a href='document location&gt;</td>
+                                <td class='code'>&lt;/a&gt;</td>
+                                <td>Link</td>
+                            </tr>
+                            <tr>
+                                <td class='code'>&lt;ol&gt;</td>
+                                <td class='code'>&lt;/ol&gt;</td>
+                                <td>Ordered (numbered) list</td>
+                            </tr>
+                            <tr>
+                                <td class='code'>&lt;ul&gt;</td>
+                                <td class='code'>&lt;/ul&gt;</td>
+                                <td>Unordered (bulleted) list</td>
+                            </tr>
+                            <tr>
+                                <td class='code'>&lt;li&gt;</td>
+                                <td class='code'>&lt;/li&gt;</td>
+                                <td>List item, must be nested inside a list element such as a <span class='code'>&lt;ol&gt;</span> or <span class='code'>&lt;ul&gt;</span></td>
+                            </tr>
+                            <tr>
+                                <td class='code'>&lt;!--</td>
+                                <td class='code'>--&gt;</td>
+                                <td>Comment. Anything between these tags is not displayed on the screen. This is useful for 
+                                    making notes to yourself or to others who may view the source code of the web page.</td>
+                            </tr>
+                </table>
+    </body>
+</html>

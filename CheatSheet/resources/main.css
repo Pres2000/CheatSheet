@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+h1, h2 {
+    font-family: 'Abril Fatface';
+    text-align: center;
+}
+
+h2 {
+    margin-top: 100px;
+
+}
+table {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+td, tr {
+    border: 2px solid black;
+}
+
+td {
+    
+    padding: 8px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: auto;
+}
+
+
+thead {
+    font-size: 30px;
+    
+}
+
+thead, th {
+    width: 100px;
+    border: 2px solid black;
+    background-color: turquoise;
+}
